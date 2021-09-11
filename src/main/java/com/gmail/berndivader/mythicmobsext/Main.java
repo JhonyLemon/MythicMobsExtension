@@ -95,8 +95,9 @@ public class Main extends JavaPlugin {
 			}.runTaskAsynchronously(this);
 		}
 		if (pluginmanager.isPluginEnabled("MythicMobs")) {
-			NMSUtils.initialize();
-			new Utils();
+
+			//NMSUtils.initialize();
+			//new Utils();
 			internals = new Internals();
 
 			if (Config.externals) {
